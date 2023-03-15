@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lightblue"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.info.homeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/homeView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"
+            android:text="Trip Travel"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/homeLogo"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/paris"
+            app:layout_constraintBottom_toTopOf="@+id/homeView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeView1"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <TextView
+            android:id="@+id/homeView2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="308dp"
+            android:padding="15dp"
+            android:text="See Detailed Travel Information"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="@+id/homeView1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeView1" />
+
+        <ImageView
+            android:id="@+id/homeLogo1"
+            android:layout_width="195dp"
+            android:layout_height="152dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/canada"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/homeView2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/homeView2"
+            app:layout_constraintTop_toBottomOf="@+id/homeView2"
+            app:layout_constraintVertical_bias="0.014" />
+
+        <ImageView
+            android:id="@+id/homeLogo2"
+            android:layout_width="192dp"
+            android:layout_height="152dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/dubai"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/homeView2"
+            app:layout_constraintTop_toBottomOf="@+id/homeView2"
+            app:layout_constraintVertical_bias="0.011" />
+
+        <TextView
+            android:id="@+id/homeView3"
+            android:layout_width="126dp"
+            android:layout_height="37dp"
+            android:padding="5dp"
+            android:text="Canada 10 Day 9 Night"
+            android:textColor="@color/black"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="@+id/homeLogo1"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeLogo1" />
+
+        <TextView
+            android:id="@+id/homeView6"
+            android:layout_width="62dp"
+            android:layout_height="34dp"
+            android:layout_marginTop="4dp"
+            android:padding="1dp"
+            android:text="3500$"
+            android:textColor="@color/red"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="@+id/homeLogo1"
+            app:layout_constraintHorizontal_bias="0.906"
+            app:layout_constraintStart_toStartOf="@+id/homeLogo1"
+            app:layout_constraintTop_toBottomOf="@+id/homeLogo1" />
+
+        <TextView
+            android:id="@+id/homeView4"
+            android:layout_width="136dp"
+            android:layout_height="33dp"
+            android:padding="5dp"
+            android:text="Dubai 10 Day 9 Night"
+            android:textColor="@color/black"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/homeLogo2"
+            app:layout_constraintTop_toBottomOf="@+id/homeLogo2" />
+
+        <TextView
+            android:id="@+id/homeView5"
+            android:layout_width="49dp"
+            android:layout_height="33dp"
+            android:layout_marginTop="4dp"
+            android:padding="1dp"
+            android:text="5900$"
+            android:textColor="@color/red"
+            android:textSize="13sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.912"
+            app:layout_constraintStart_toStartOf="@+id/homeLogo2"
+            app:layout_constraintTop_toBottomOf="@+id/homeLogo2" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
